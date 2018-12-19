@@ -9,3 +9,5 @@ The LDR is an analog sensor connected to the microcontroller using a voltage div
 The HC-SR04 ultrasonic sensors are digital sensors used to determine the location of a person. Using a 10-microsecond delay I send out trigger pulses to the sensors at intervals. When receiving a trigger pulse, the sensor sends out 8 sonic bursts and listens for the echo. Using interrupts and the onboard crystal, I time the duration between the sonic bursts and their echo (i.e. until the sound reflects back), in order to measure the distance.
  The two continuous rotation servo motors, with built-in h-bridge and feedback control, rotate the clock hands to the correct positions. The motors are run with a pulse width modulated signal.
 A 5V power source
+
+![pin diagram](https://drive.google.com/open?id=1TwGJUQmncfK1ksg-dEEtrAfBjsdjESxU)
